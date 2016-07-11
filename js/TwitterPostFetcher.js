@@ -38,15 +38,15 @@ q[c]+'" class="twitter_fav_icon"'+(t?' target="_blank">':">")+"Favorite</a></p>"
 
 /**
  * How to use TwitterFetcher's fetch function:
- * 
+ *
  * @function fetch(object) Fetches the Twitter content according to
  *     the parameters specified in object.
- * 
+ *
  * @param object {Object} An object containing case sensitive key-value pairs
  *     of properties below.
- * 
+ *
  * You may specify at minimum the following two required properties:
- * 
+ *
  * @param object.id {string} The ID of the Twitter widget you wish
  *     to grab data from (see above for how to generate this number).
  * @param object.domId {string} The ID of the DOM element you want
@@ -88,7 +88,7 @@ var configProfile = {
   "profile": {"screenName": 'jsinsa'},
   "domId": 'jsinsa_profile',
   "maxTweets": 99,
-  "enableLinks": true, 
+  "enableLinks": true,
   "showUser": true,
   "showTime": true,
   "showImages": true,
@@ -102,7 +102,7 @@ var configWidget = {
   "id": '472497070914297856',
   "domId": 'jsinsa_posts',
   "maxTweets": 99,
-  "enableLinks": true, 
+  "enableLinks": true,
   "showUser": true,
   "showTime": true,
   "showImages": true,

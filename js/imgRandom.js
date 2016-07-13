@@ -1,25 +1,16 @@
 anime({
-  targets: ['.myImage1','.myImage2','.myImage3'],
+  targets: ['.myImage2','.myImage3'],
   // translateX: '0rem',
   rotate: 360,
   borderRadius: 8,
-  duration: 8000,
+  duration: 2000,
   loop: false
 });
 
-
-
-// var imageAnimation = anime({
-//   targets: ['.myImage1','.myImage2','.myImage3'],
-//   translateX: 200,
-//   direction: 'alternate',
-//   duration: '2000',
-//   elasticity: 400,
-//   autoplay: false
-// });
-//
-// mineAnimation.settings.complete = function() {
-//   // mineAnimation.restart();
-// }
-//
-// imageAnimation.play();
+anime({
+  targets: ['.myImage1'],
+  rotate: 360,
+  borderRadius: 8,
+  duration: 10000,
+  loop: false
+});

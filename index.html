@@ -4,58 +4,49 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/styles.css">
         <script src="js/TwitterPostFetcher.js"></script>
+        <script src="js/jquery-3.0.0.min.js"></script>
     </head>
     <body>
 
-    <section>
-      <article>
+      <div class="container">
         <div class="myImage1" style="float: top left;margin: 0 0 10px 10px;">
           <img width="100px" height="60px" src="img/logo2.png" ></img>
         </div>
-      </article>
-    </section>
-
-    <section>
-      <article>
-      <div class="myImage2" style="float:right;margin: 30px 30px 30px 30px;">
-        <img width="100px" height="100" src="img/entelect.png"></img>
-      </div>
-      <div class="myImage3" style="float:right;margin: 30px 30px 30px 30px;">
-        <img width="100px" height="100" src="img/pi.png"></img>
-      </div>
-      <div class="myImage2" style="float:right;margin: 30px 30px 30px 30px;">
-        Sponsored by:
-      </div>
-    </article>
-   </section>
-
-
-  <section>
-    <article>
-      <div class="myHeader" style="margin: 0 0 30px 30px;">
-        <img src="img/Twitter_logo_blue.png" width="100px" height="100"/>
-        <!-- <h2>Twitter Visualiser</h2> -->
-        <a href="http://codepen.io/jasonmayes/pen/Ioype" style="font-size: 10px">
-            Thanks to Jason Mayes for his awesome twitter scraping library
-        </a>
-      </div>
-    </article>
-  </section>
-
-    <section>
-      <article>
-        <div class="mine hoverwell" style="margin: 30px 30px 30px 30px;">
-          <div id="jsinsa_profile" class="row"></div>
-          <div id="jsinsa_posts" class="row"></div>
+        <div class="myImage2" style="float: right;margin: 30px 30px 30px 30px;">
+          <img width="100px" height="100" src="img/entelect.png"></img>
         </div>
-      </article>
-    </section>
+        <div class="myImage3" style="float:right;margin: 30px 30px 30px 30px;">
+          <img width="100px" height="100" src="img/pi.png"></img>
+        </div>
+        <div class="myImage2" style="float:right;margin: 10px 10px 10px 10px;">
+          Sponsored by:
+        </div>
 
+        <img id="twitterImg" src="img/Twitter_logo_blue.png" width="100px" height="100" class="twitterLogoClass"/>
+        <a id="jasonMayes" href="http://codepen.io/jasonmayes/pen/Ioype" style="font-size: 10px">
+            Thanks to <strong>Jason Mayes</strong> for his <strong>AWESOME</strong> twitter scraping library
+        </a>
+
+        <div class="mine hoverwell" style="margin: 30px 30px 30px 30px;">
+            <div id="jsinsa_profile" class="row"></div>
+            <div id="jsinsa_posts" class="row"></div>
+        </div>
+    </div>
 
     <script src="js/anime.min.js"></script>
     <script src="js/tweets.js"></script>
     <script src="js/imgRandom.js"></script>
-
-
+    <script src="js/twitterLogo.js"></script>
+    <script>
+          anime({
+            targets: ['.twitterLogoClass'],
+            translateX: '13rem',
+            direction: "alternate",
+            rotate: 360,
+            borderRadius: 8,
+            duration: 5000,
+            loop: true
+          });
+    </script>
     </body>
 </html>

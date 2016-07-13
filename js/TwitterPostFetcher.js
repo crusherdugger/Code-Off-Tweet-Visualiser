@@ -109,8 +109,19 @@ var configWidget = {
   "lang": 'en'
 };
 
+var config1 = {
+  "id": '472497070914297856',
+  "domId": 'cubePosts',
+  "maxTweets": 6,
+  "enableLinks": true,
+  "showUser": true,
+  "showTime": true,
+  "lang": 'en'
+};
+
 twitterFetcher.fetch(configProfile);
 twitterFetcher.fetch(configWidget);
+twitterFetcher.fetch(config1);
 
 // Just updating every 5 seconds
 var timer = setInterval(mycode, 5000);

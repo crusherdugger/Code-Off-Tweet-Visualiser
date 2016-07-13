@@ -1,44 +1,51 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
         <script src="js/TwitterPostFetcher.js"></script>
     </head>
     <body>
 
     <section>
       <article>
-      <div class="myImage1" style="float: right;margin: 0 0 10px 10px;">
-        <img width="100px" height="60px" src="img/logo.png" ></img>
-      </div>
-      <div class="myImage2" style="float: right;margin: 0 0 10px 10px;">
+        <div class="myImage1" style="float: top left;margin: 0 0 10px 10px;">
+          <img width="100px" height="60px" src="img/logo2.png" ></img>
+        </div>
+      </article>
+    </section>
+
+    <section>
+      <article>
+      <div class="myImage2" style="float:right;margin: 30px 30px 30px 30px;">
         <img width="100px" height="100" src="img/entelect.png"></img>
       </div>
-      <div class="myImage3" style="float: right;margin: 0 0 10px 10px;">
+      <div class="myImage3" style="float:right;margin: 30px 30px 30px 30px;">
         <img width="100px" height="100" src="img/pi.png"></img>
+      </div>
+      <div class="myImage2" style="float:right;margin: 30px 30px 30px 30px;">
+        Sponsored by:
       </div>
     </article>
    </section>
 
+
   <section>
     <article>
       <div class="myHeader" style="margin: 0 0 30px 30px;">
-        <h2>JS in SA Tweet Visualiser</h2>
-        <a href="http://codepen.io/jasonmayes/pen/Ioype" style="font-size: 10px">Thanks to Jason Mayes for his awesome twitter scraping library</a>
+        <img src="img/Twitter_logo_blue.png" width="100px" height="100"/>
+        <!-- <h2>Twitter Visualiser</h2> -->
+        <a href="http://codepen.io/jasonmayes/pen/Ioype" style="font-size: 10px">
+            Thanks to Jason Mayes for his awesome twitter scraping library
+        </a>
       </div>
     </article>
   </section>
 
-
-
-    <hr />
-
     <section>
       <article>
-        <div class="mine well hoverwell">
+        <div class="mine hoverwell" style="margin: 30px 30px 30px 30px;">
           <div id="jsinsa_profile" class="row"></div>
-            <hr />
           <div id="jsinsa_posts" class="row"></div>
         </div>
       </article>
@@ -48,16 +55,7 @@
     <script src="js/anime.min.js"></script>
     <script src="js/tweets.js"></script>
     <script src="js/imgRandom.js"></script>
-    <script>
-    var myAnimation = anime({
-targets: ['.blue', '.green'],
-translateX: '13rem',
-rotate: 180,
-borderRadius: '8px',
-duration: 2000,
-loop: true
-});
-    </script>
+
 
     </body>
 </html>

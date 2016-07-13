@@ -1,3 +1,6 @@
+crusherdugger === Lloyd Dugmore
+
+
 ![Code Off](http://www.prolificidea.com/assets/img/code_off-logo.png "Code Off")
 
 # Code Off - JSinSA Tweet Visualiser
@@ -20,7 +23,7 @@ Please make sure your code doesn't require heavy external dependencies to run. T
 Entries will close at 16:30 on Saturday 16 July 2016.
 
 ## Inspiration
-To get you going, have a look at these three JavaScript libraries that can be used in different ways to do something cool with the tweets. You're not restricted to using any of these, but they may be a good source for inspiration. 
+To get you going, have a look at these three JavaScript libraries that can be used in different ways to do something cool with the tweets. You're not restricted to using any of these, but they may be a good source for inspiration.
 
 [Anime.js](http://anime-js.com/)
 

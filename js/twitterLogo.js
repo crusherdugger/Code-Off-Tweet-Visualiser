@@ -9,3 +9,14 @@ $(document).ready(function(){
     $("#jasonMayes").hide();
   });
 });
+
+
+anime({
+  targets: ['.twitterLogoClass'],
+  translateX: '13rem',
+  direction: "alternate",
+  rotate: 360,
+  borderRadius: 8,
+  duration: 5000,
+  loop: false
+});

@@ -93,6 +93,7 @@ var configProfile = {
   "showUser": true,
   "showTime": true,
   "showImages": true,
+  "showInteraction": false,
   "lang": 'en'
 };
 
@@ -107,6 +108,7 @@ var configWidget = {
   "showUser": true,
   "showTime": true,
   "showImages": true,
+  "showInteraction": false,
   "lang": 'en'
 };
 

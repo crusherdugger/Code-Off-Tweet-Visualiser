@@ -7,7 +7,6 @@ body {
 p, a {
   font-size:9pt;
   margin:10px 0 0 0;
-  /*color:#3d3d3d;*/
 }
 
 a, a:visited {
@@ -19,9 +18,7 @@ a:hover {
 }
 
 ul li {
-  list-style:none;
   overflow:hidden;
-  /*border:1px solid #dedede;*/
   margin:5px;
   padding:5px;
 }
@@ -80,6 +77,22 @@ ul li:hover {
 }
 
 .media img {
+  float:left;
   max-width:250px;
   max-height:250px;
+}
+
+#logo-area	{
+	width: 100%;
+	height: 200px;
+	background-image: url(../img/bigLogo.png);
+  background-size: contain;
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+	animation: animateLogo 60s linear infinite;
+}
+
+@keyframes animateLogo {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
 }

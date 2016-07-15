@@ -2,15 +2,29 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/flipclock.css">
         <link rel="stylesheet" href="css/styles.css">
         <script src="js/TwitterPostFetcher.js"></script>
         <script src="js/jquery-3.0.0.min.js"></script>
-
-        <title>Ultimate Tweet Visualiser</title>
+        <script src="js/flipclock.min.js"></script>
+        <title>Statistic Tweet Visualiser</title>
     </head>
-    <body >
+    <body>
 
-      <div id="logo-area"></div>
+      <div id="logo-area">
+      </div>
+
+      <div class="myClockStyle" style="float: right">
+          Next tweet retrieval in:&nbsp;
+          <div class="clock" style="margin:2em;"></div>
+          Retrieval count:
+          <strong><div id="count" style="float: right">1</div></strong>
+      </div>
+
+      <div class="myClockStyle" style="float: right">
+          Uptime:&nbsp;
+          <div class="upClock" style="margin:2em;"></div>
+      </div>
 
       <div class="container">
         <div class="myImage1" style="float: top left;margin: 0 0 10px 10px;">
@@ -23,7 +37,7 @@
           <img width="100px" height="100" src="img/pi.png"></img>
         </div>
         <div class="myImage2" style="float:right;margin: 10px 10px 10px 10px;">
-          Sponsored by:
+          <strong>Sponsored by:</strong>
         </div>
 
         <img id="twitterImg" src="img/Twitter_logo_blue.png" width="100px" height="100" class="twitterLogoClass"/>
@@ -41,5 +55,6 @@
     <script src="js/tweets.js"></script>
     <script src="js/imgRandom.js"></script>
     <script src="js/twitterLogo.js"></script>
+    <script src="js/clock.js"></script>
     </body>
 </html>

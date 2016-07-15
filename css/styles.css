@@ -3,7 +3,6 @@ body {
   color: #333333;
 }
 
-
 p, a {
   font-size:9pt;
   margin:10px 0 0 0;
@@ -95,4 +94,14 @@ ul li:hover {
 @keyframes animateLogo {
 	from { background-position: 0 0; }
 	to { background-position: 100% 0; }
+}
+
+.myClockStyle {
+  zoom: 0.5;
+  position: relative !important;
+  padding-top: 0px;
+  height:100px;
+  transform: scale(.54);
+  -ms-transform: scale(.54);
+  font-size: 50px;
 }

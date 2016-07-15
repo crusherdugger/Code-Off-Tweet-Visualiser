@@ -115,8 +115,8 @@ var configWidget = {
 twitterFetcher.fetch(configProfile);
 twitterFetcher.fetch(configWidget);
 
-// Just updating every 5 seconds
-var timer = setInterval(mycode, 60000);
+// Just updating every 10 seconds
+var timer = setInterval(mycode, 10000);
 function mycode() {
     twitterFetcher.fetch(configProfile);
     twitterFetcher.fetch(configWidget);
